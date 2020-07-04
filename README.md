@@ -25,6 +25,9 @@ $ npm i -g mc-build
 
 ## MC Language Examples
 
+`.mc` files are stored in the `datapack/src/` folder.
+Sub folders in `src` will append their name to `.mc` files inside of them. Eg: `datapacks/src/foo/bar.mc` instantiates a function called `baz`, this function will be accessable via `foo:bar/baz`.
+
 ### Functions
 ```
 function example_function{
@@ -239,3 +242,9 @@ namespace bar{
 }
 ```
 These baz functions would conflict as they share the same function path.
+
+## Contact Us
+### Lead Developer: 
+- Discord: Nitro#1225
+### Developer/Helper: 
+- Discord: SnaveSutit#0042
